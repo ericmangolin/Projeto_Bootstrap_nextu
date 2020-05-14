@@ -1,0 +1,28 @@
+.navbar-brand img{
+    width: 7em;
+    padding: 0px;
+    margin: 0px;
+}
+
+.icon-media img{
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+}
+
+.icon-media-ref{
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link a:hover{
+    color: yellow;
+}
+
+.btn{
+    margin-left: 2em;
+}

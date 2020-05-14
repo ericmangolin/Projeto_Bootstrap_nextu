@@ -9,48 +9,74 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="bootstrap-social.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles_icons_midia">
+        <link rel="stylesheet" href="css/bootstrap-social.css">
+        <link rel="stylesheet" href="css/docs.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         
     </head>
     <body>
-        
+        <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">Blog do Rock</a>
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="Blog do Rock" loading="lazy">
+                </a>
+                
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSite">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-            <div class="collapse navbar-collapse" id="navbarSite">
+                <div class="collapse navbar-collapse ml-auto" id="navbarSite">
+                    <ul class="social-network social-circle ml-auto">
+                        <a href="#" class="icon-media" title="Facebook"><img src="img/midia_face.png" class="img-social"></i></a>
+                        <a href="#" class="icon-media" title="Instagram"><img src="img/midia_inst.png" class="img-social"></i></a>
+                        <a href="#" class="icon-media" title="Twitter"><img src="img/midia_twit.png" class="img-social"></i></a>
+                        <a href="#" class="icon-media" title="Google +"><img src="img/midia_what.png" class="img-social"></i></a>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #505458">
+            <div class="container">
+            <div class="collapse navbar-collapse nav justify-content-center" id="navbarSite">
                 <!-- 1 - MR - margin rigth
                      2 - ML - margin left-->
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Início</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Artistas</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Grupos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Top10</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Letras</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Acordes</a></li>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="btn btn-social-icon btn-twitter">
-                        <span class="fa fa-twitter"></span>
-                    </li>
-                    </a>
-                    </div>
+                <form class="form-inline">
+                    <button class="btn btn-sm btn-outline-secondary active" type="button">Início</button>
+                    <button class="btn btn-sm btn-outline-secondary" type="button">Artistas</button>
+                    <button class="btn btn-sm btn-outline-secondary" type="button">Grupos</button>
+                    <button class="btn btn-sm btn-outline-secondary" type="button">Top10</button>
+                    <button class="btn btn-sm btn-outline-secondary" type="button">Letras</button>
+                    <button class="btn btn-sm btn-outline-secondary" type="button">Acordes</button>
+                </form>
+                
+                    <!--<ul class="navbar nav nav-justified">
+                    <a class="nav-item nav-link active" href="#">Início</a>
+                    <a class="nav-item nav-link" href="#">Artistas</a>
+                    <a class="nav-item nav-link" href="#">Grupos</a>
+                    <a class="nav-item nav-link" href="#">Top10</a>
+                    <a class="nav-item nav-link" href="#">Letras</a>
+                    <a class="nav-item nav-link" href="#">Acordes</a>
+                </ul>-->
 
-                    </li>
-                </ul>
             </div>
         </div>
         </nav>
-        
+    </header>
+
     <script src="js/bootstrap.js"></script>
     <script src="js/npm.js"></script>
     <script src="js/jquery.js"></script>
-    <script src="js/doc.js"></script>
-      </body>
+    <script src="js/docs.js"></script>
+      
+<p class="icon-media-ref">
+    Ícones de mídias sociais 'Aquarela' com design de:
+    <a href="http://www.freepik.com">Designed by Hello-Pixel / Freepik</a>
+</p>
+
+</body>
 </html>
