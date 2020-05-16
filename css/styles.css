@@ -4,10 +4,8 @@
     margin: 0px;
 }
 
-.icon-media img{
-    width: 2em;
-    height: 2em;
-    border-radius: 100%;
+.icon-media svg{
+    width: 1.5em;
 }
 
 .icon-media-ref{
@@ -27,9 +25,21 @@
     margin-left: 2em;
 }
 
-.box{
+.media{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     align-self: flex-end;
 }
+
+.dropdown{
+    display: flexbox;
+}
+ .panel-footer{
+     background-color:#343a40;
+     color: white;
+ }
+
+ .panel-footer a:hover{
+     color: yellow;
+ }
