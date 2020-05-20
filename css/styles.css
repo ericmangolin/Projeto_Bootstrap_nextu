@@ -17,9 +17,6 @@
     color: white;
 }
 
-.nav-link a:hover{
-    color: yellow;
-}
 
 .btn{
     margin-left: 2em;
@@ -40,6 +37,44 @@
      color: white;
  }
 
- .panel-footer a:hover{
-     color: yellow;
- }
+.texto-artigo{
+    text-align: justify;
+    font-size: 1em;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+}
+
+.fonte-artigo{
+    font-size: 0.8em;
+    color: black;
+    text-align: right;
+}
+
+.link-artigo{
+    color: black;
+}
+
+.link-artigo a:hover{
+    color: red;
+}
+
+article h3{
+    font-size: 1.5em;
+}
+
+.area-coment{
+    font-size: 0.8em;
+}
+
+.row-media{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.icon-media-coment{
+    margin-right: 1em;
+}
+
+.social-coment{
+    font-size: 0.8em;
+}
