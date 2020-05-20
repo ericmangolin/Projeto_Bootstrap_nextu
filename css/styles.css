@@ -1,5 +1,9 @@
+.container-logo{
+    text-align: center;
+}
+
 .navbar-brand img{
-    width: 7em;
+    width: 6em;
     padding: 0px;
     margin: 0px;
 }
@@ -32,6 +36,12 @@
 .dropdown{
     display: flexbox;
 }
+
+#div-grande{
+    border-color: grey;
+    border: 5px solid;
+}
+
  .panel-footer{
      background-color:#343a40;
      color: white;
@@ -73,8 +83,27 @@ article h3{
 
 .icon-media-coment{
     margin-right: 1em;
+    border-color: black;
 }
 
 .social-coment{
     font-size: 0.8em;
+}
+
+.tgl1{
+    overflow: hidden;
+    width: 100px;
+    white-space: no-wrap;
+}
+
+.botaovejamenos{
+    text-align: center;
+}
+
+.botaovejamais a{
+    text-align: right;
+}
+
+#linkexpande{
+    padding: 0px;
 }
