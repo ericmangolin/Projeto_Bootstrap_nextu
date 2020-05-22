@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="css/styles_icons_midia">
         <link rel="stylesheet" href="css/bootstrap-social.css">
         <link rel="stylesheet" href="css/docs.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         
     </head>
     <body>
@@ -50,17 +51,18 @@
         </header>
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <!--Dropdown-->
+            <!--Dropdown
             <div class="dropdown" style="background-color: blue">
                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="menus" aria-expanded="false" aria-controls="menus">
                     Menu
                 </button>
-            </div>
+            </div>-->
 
+            <div class="container">
             <div class="collapse navbar-collapse nav justify-content-center" id="menus">
                 <!-- 1 - MR - margin rigth
                      2 - ML - margin left-->
-                <form class="form-inline">
+                <form class="container">
                     <button class="btn btn-sm btn-outline-secondary active" type="button">Início</button>
                     <button class="btn btn-sm btn-outline-secondary" type="button">Artistas</button>
                     <button class="btn btn-sm btn-outline-secondary" type="button">Grupos</button>
@@ -70,15 +72,25 @@
                 </form>
 
             </div>
+        </div>
+
+        
         </nav>
+        
+        <br/>
+        
+<!--INÍCIO DO CORPO DO SITE-->
 
         <div class="container">
             <div class="row justify-content-md-center">
                 
                 <div class="col col-lg-7" id="div-grande">
                     
-                    <div class="row">
-                        <div class="col col-lg-8" style="background-color: pink">
+                    <div class="row justify-content-md-center">
+
+<!--INÍCIO DO ARTIGO 1-->
+
+                        <div class="col col-lg-8">
                         
                             <article class="texto-artigo">
                                 
@@ -131,27 +143,31 @@
                             </form>
                         
                         </div>
-                        <div class="col col-lg-4" style="background-color: rgb(172, 111, 121)">
+                        <div class="col col-lg-3 imagem-artigo">
                         
-                            <span>
+                            <span id="img-artigo">
                                 <img class="mx-auto d-block" src="img/rock_heart.jpg" width="100%">
                             </span>
                         
                         </div>
                     </div>
+<!--SEPARADOR HORIZONTAL-->
 
-                    <div class="separador">xxx</div>
+                    <hr class="separador-artigo">
+                    <br/>
+
+<!--INÍCIO DO ARTIGO 2-->
 
                     <div class="row">
-                        <div class="col col-lg-4" style="background-color: rgb(121, 32, 47)">
+                        <div class="col col-lg-3 imagem-artigo">
                             
-                            <span>
+                            <span id="img-artigo">
                                 <img class="mx-auto d-block" src="img/Rock_hand_2.jpg" width="100%">
                             </span>
 
                         </div>
                         
-                        <div class="col col-lg-8 tgl1">
+                        <div class="col col-lg-8">
                             <article>
 
                                 <h3>Os maiores Festivais de Rock do Mundo</h3>
@@ -219,9 +235,26 @@
                     </div>
 
                 </div>
-                <div class="col col-lg-4" style="background-color: yellow">Coluna menor</div>
+<!--SEPARADOR VERTICAL                
 
-            </div>
+                <div class="separador-vertical">
+                    <hr class="separador-coluna"/>
+                </div>-->
+                
+<!--PESQUISA-->
+
+                <div class="col col-lg-3 my-1 pesquisa"><br/>
+                
+                            <div class="input-group">
+                              <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Pesquisar" style="border-right: none">
+                              <div class="input-group-append">
+                                <div class="input-group-text" style="background-color: #FFF"><i class="fas fa-search"></i></div>
+                              </div>
+                            </div>
+                
+                    </div>
+
+                </div>
         </div>
 
     <script src="js/bootstrap.js"></script>
@@ -230,9 +263,11 @@
     <script src="js/docs.js"></script>
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 
+<!--RODAPÉ-->
+
     <div class="card-footer panel-footer">
         <p class="icon-media-ref">
-            Ícones de mídias sociais 'Aquarela' com <a class="panel-footer" href="http://www.freepik.com">Designed by Hello-Pixel / Freepik</a>
+            Ícones de mídias sociais com Design de <a class="panel-footer" href="https://ionicons.com">Ionicons</a> e<a class="panel-footer" href="https://https://fontawesome.com.com"> Fontawesome</a>
         </p>
     </div>
 

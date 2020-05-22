@@ -1,3 +1,7 @@
+body{
+    background-color: #f6f8fa;
+}
+
 .container-logo{
     text-align: center;
 }
@@ -25,23 +29,58 @@
 .btn{
     margin-left: 2em;
 }
-
+/*Configuração Ícones Mídias Sociais topo*/
 .media{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     align-self: flex-end;
 }
-
+/*--------------------------------------------------*/
 .dropdown{
     display: flexbox;
 }
 
-#div-grande{
-    border-color: grey;
-    border: 5px solid;
+/*--------------------------------------------------*/
+/*Configuração Imagem artigo 'Direita'*/
+.imagem-artigo{
+    display: flex;
+    justify-content: center;
 }
 
+#img-artigo{
+    align-self: initial;
+}
+/*--------------------------------------------------*/
+/*Separador horizontal*/
+
+.separador-artigo{
+    border: 0px;
+    background-color: #d2d6da;
+    height: 0.2em;
+    /*background-image: linear-gradient(to right, transparent, #CCC, transparent);*/
+}
+/*--------------------------------------------------*/
+/*Separador vertical
+
+.separador-vertical{
+    display: flex;
+    justify-content: center;
+}
+
+.separador-coluna{
+    border: 0.1em solid gray;
+    height: 99%;
+    width: 0%;
+    align-self: center;
+}*/
+/*--------------------------------------------------*/
+/*Pesquisa*/
+
+.pesquisa{
+    background-color: #d2d6da;
+}
+/*--------------------------------------------------*/
  .panel-footer{
      background-color:#343a40;
      color: white;
