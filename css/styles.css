@@ -1,59 +1,69 @@
+/*--------------------------------------------------*/
 body{
     background-color: #f6f8fa;
 }
-
+/*--------------------------------------------------*/
 .container-logo{
     text-align: center;
 }
-
+/*--------------------------------------------------*/
 .navbar-brand img{
     width: 6em;
     padding: 0px;
     margin: 0px;
 }
-
+/*--------------------------------------------------*/
 .icon-media svg{
-    width: 1.5em;
+    width: 1.5rem;
 }
-
-.icon-media-ref{
-    font-size: 0.8em;
-    text-align: center;
-}
-
-.nav-link{
-    color: white;
-}
-
-
-.btn{
-    margin-left: 2em;
-}
+/*--------------------------------------------------*/
 /*Configuração Ícones Mídias Sociais topo*/
 .media{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     align-self: flex-end;
 }
 /*--------------------------------------------------*/
-.dropdown{
-    display: flexbox;
+/*Configuração Texto artigos*/
+.texto-artigo{
+    text-align: justify;
+    font-size: 1em;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
 }
-
+.fonte-artigo{
+    font-size: 0.8em;
+    color: black;
+    text-align: right;
+}
+.link-artigo{
+    color: black;
+}
+.botaovejamenos a{
+    text-align: center;
+    color: tomato;
+}
+#oculta-artigo{
+    color: tomato;
+}
+.botaovejamais > a{
+    text-align: right;
+    color: tomato;
+}
+.link-comentario{
+    height: 1rem;
+}
 /*--------------------------------------------------*/
-/*Configuração Imagem artigo 'Direita'*/
+/*Configuração Imagem artigo*/
 .imagem-artigo{
-    display: flex;
+    display: flexbox;
     justify-content: center;
 }
-
 #img-artigo{
     align-self: initial;
 }
 /*--------------------------------------------------*/
 /*Separador horizontal*/
-
 .separador-artigo{
     border: 0px;
     background-color: #d2d6da;
@@ -61,6 +71,27 @@ body{
     /*background-image: linear-gradient(to right, transparent, #CCC, transparent);*/
 }
 /*--------------------------------------------------*/
+/*Redes Sociais pós comentário*/
+.social-coment{
+    text-align: center;
+    justify-self: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+.icon-media-coment{
+    margin-right: 1em;
+    border-color: #343a40;
+    ;
+}
+.social-coment > p{
+    padding: 0;
+    margin: 0.5rem;
+    text-decoration: underline;
+}
+/*--------------------------------------------------*/
+
 /*Separador vertical
 
 .separador-vertical{
@@ -76,36 +107,30 @@ body{
 }*/
 /*--------------------------------------------------*/
 /*Pesquisa*/
-
 .pesquisa{
     background-color: #d2d6da;
+    order: initial;
 }
 /*--------------------------------------------------*/
- .panel-footer{
-     background-color:#343a40;
-     color: white;
+/*Rodapé*/
+.rodape{
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+    justify-self: baseline;
+    height: 100px;
+    background-color: #343a40;
+    color: white;
  }
-
-.texto-artigo{
-    text-align: justify;
-    font-size: 1em;
-    margin-bottom: 0em;
-    padding-bottom: 0em;
-}
-
-.fonte-artigo{
-    font-size: 0.8em;
-    color: black;
-    text-align: right;
-}
-
-.link-artigo{
-    color: black;
-}
-
-.link-artigo a:hover{
-    color: red;
-}
+a.link-footer{
+    color: white;
+    text-decoration: underline;
+ }
+a.link-footer:hover{
+    color: yellow;
+    text-decoration: underline;
+ }
+ /*--------------------------------------------------*/
 
 article h3{
     font-size: 1.5em;
@@ -120,14 +145,7 @@ article h3{
     margin-bottom: 1em;
 }
 
-.icon-media-coment{
-    margin-right: 1em;
-    border-color: black;
-}
 
-.social-coment{
-    font-size: 0.8em;
-}
 
 .tgl1{
     overflow: hidden;
@@ -135,13 +153,7 @@ article h3{
     white-space: no-wrap;
 }
 
-.botaovejamenos{
-    text-align: center;
-}
 
-.botaovejamais a{
-    text-align: right;
-}
 
 #linkexpande{
     padding: 0px;
