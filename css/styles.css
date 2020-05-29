@@ -111,11 +111,14 @@ body{
 /*--------------------------------------------------*/
 /*Pesquisa*/
 .pesquisa{
-    background-color: #d2d6da;
+    background-color:rgb(221, 213, 213);
     order: initial;
+    padding-top: 1rem;
+
 }
 .lista-pesquisa > li{
     text-decoration: none;
+    padding-top: 1rem;
 }
 /*--------------------------------------------------*/
 /*Rodapé*/
@@ -124,6 +127,7 @@ body{
     font-size: 0.8rem;
     text-align: center;
     justify-self: baseline;
+    width: 100%;
     height: 100px;
     background-color: #343a40;
     color: white;
