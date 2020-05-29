@@ -59,30 +59,31 @@
 
         </header>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid" style="background-color: rgb(221, 213, 213)">
+        <nav class="navbar navbar-expand-lg">
             <!--Dropdown
             <div class="dropdown" style="background-color: blue">
                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="menus" aria-expanded="false" aria-controls="menus">
                     Menu
                 </button>
             </div>-->
-            <div class="container">
+            
             <div class="collapse navbar-collapse nav justify-content-center" id="menus">
                 <!-- 1 - MR - margin rigth
                      2 - ML - margin left-->
                 <form class="container">
-                    <button class="btn btn-sm btn-outline-secondary active" type="button">Início</button>
-                    <button class="btn btn-sm btn-outline-secondary" type="button">Artistas</button>
-                    <button class="btn btn-sm btn-outline-secondary" type="button">Grupos</button>
-                    <button class="btn btn-sm btn-outline-secondary" type="button">Top10</button>
-                    <button class="btn btn-sm btn-outline-secondary" type="button">Letras</button>
-                    <button class="btn btn-sm btn-outline-secondary" type="button">Acordes</button>
+                    <button id="btn-menu" class="btn btn-md btn-outline-dark active" type="button">Início</button>
+                    <button id="btn-menu" class="btn btn-md btn-outline-dark" type="button">Artistas</button>
+                    <button id="btn-menu" class="btn btn-md btn-outline-dark" type="button">Grupos</button>
+                    <button id="btn-menu" class="btn btn-md btn-outline-dark" type="button">Top10</button>
+                    <button id="btn-menu" class="btn btn-md btn-outline-dark" type="button">Letras</button>
+                    <button id="btn-menu" class="btn btn-md btn-outline-dark" type="button">Acordes</button>
                 </form>
 
             </div>
-        </div>
         
         </nav>
+    </div>
         
         <br/>
 <!--INÍCIO DO CORPO DO SITE-->
@@ -93,7 +94,7 @@
                     
                     <div class="row justify-content-md-center">
 <!--INÍCIO DO ARTIGO 1-->
-                        <div class="col col-lg-9 col-9">
+                        <div class="col col-lg-9 col-9" style="background-color: white">
                         
                             <article class="texto-artigo">
                                 
@@ -171,7 +172,7 @@
 
                         </div>
                         
-                        <div class="col col-lg-9 col-9">
+                        <div class="col col-lg-9 col-9" style="background-color: white">
                             <article>
 
                                 <h3>Os maiores Festivais de Rock do Mundo</h3>
@@ -254,11 +255,25 @@
                               <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Pesquisar" style="border-right: none">
                               <div class="input-group-append">
                                 <div class="input-group-text" style="background-color: #FFF">
-                                    <i class="fas fa-search"></i>
+                                    <a href="#"><i class="fas fa-search"></i></a>
                                 </div>
                               </div>
                             </div>
-                
+                    <ul class="lista-pesquisa">
+                        <li>Artigos</li>
+                        <li>Revistas</li>
+                        <li>Reportagens</li>
+                        <li>Posts</li>
+                        <li>Parceiros</li>
+                        <li>Páginas de Rock</li>
+                    </ul>
+
+                    <div class="row justify-content-center">
+                        <h3>RÁDIO ROCK</h3>
+                        <div class="row">
+                            <i class="material-icons">headset</i>
+                        </div>
+
                 </div>
 
             </div>
@@ -268,7 +283,7 @@
     <div class="rodape">
         <p>Desenvolvido por Éric Mangolim</p>
         <p>Ícones de mídias sociais com Design de 
-            <a class="link-footer" href="https://ionicons.com">Ionicons</a> e
+            <a class="link-footer" href="https://ionicons.com">Ionicons</a>, 
             <a class="link-footer" href="https://https://fontawesome.com.com"> Fontawesome</a>
         </p>
     </div>
