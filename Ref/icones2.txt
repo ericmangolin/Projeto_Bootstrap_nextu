@@ -1,0 +1,7 @@
+https://useiconic.com/open#icons
+
+<img src="/open-iconic/svg/audio-spectrum.svg">
+
+<span class="oi oi-audio-spectrum"></span>
+
+<i class="fab fa-angellist"></i>
